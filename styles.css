@@ -40,8 +40,7 @@ nav h1 {
 }
 
 .nav-element {
-    padding: 0px 20px;
-    
+    padding: 0px 20px;   
 }
 
 .nav-element-active {
@@ -99,6 +98,14 @@ nav h1 {
 @media (max-width: 600px) {
     .features {
         flex-direction: column;
+    }
+
+    nav {
+        padding: 0px 20px;
+    }
+
+    .nav-element {
+        padding: 0px 12px;   
     }
 }
 
