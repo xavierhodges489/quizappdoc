@@ -25,6 +25,10 @@ nav {
     text-transform: uppercase;
 }
 
+nav h1 {
+    white-space: nowrap;
+}
+
 .content {
     padding: 40px 40px 0px;
     max-width: 1200px;
@@ -88,6 +92,12 @@ nav {
 
 .features {
     display: flex;
+}
+
+@media (max-width: 600px) {
+    .features {
+        flex-direction: column;
+    }
 }
 
 .feature {
