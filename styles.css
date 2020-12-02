@@ -23,6 +23,7 @@ nav {
     align-items: center;
     padding: 0px 10%;
     text-transform: uppercase;
+    border-bottom: 3px solid #80deea;
 }
 
 nav h1 {
